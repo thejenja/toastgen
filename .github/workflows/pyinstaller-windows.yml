@@ -1,6 +1,6 @@
 name: Package exe with PyInstaller - Windows
 
-on:
+on: [workflow_dispatch]
   push:
     branches: [ master ]
   pull_request:
